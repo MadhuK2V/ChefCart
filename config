@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://K2-ChefCart@dev.azure.com/K2-ChefCart/ChefCart/_git/ChefCart
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "hr.teamtech24"]
+	remote = origin
+	merge = refs/heads/hr.teamtech24
